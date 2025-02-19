@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles-1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header" id="home">
+        <h1 class="header-heading">Web Development</h1>
+        <img src="./image/img.jpg" alt="photo of me" class="header-person-img" />
+        <h3 class="header-person-name">Andre</h3>
+      </header>
+
+      <nav class="navbar">
+        <a href="#home" class="navbar-link">Home</a>
+        <a href="#about" class="navbar-link">About</a>
+        <a href="#projects" class="navbar-link">Projects</a>
+        <a href="#contact" class="navbar-link">Contact</a>
+      </nav>
+
+      <section class="about" id="about">
+        <h1 class="about-heading section-heading">About Me</h1>
+        <div class="progress-bars-wrapper">
+          <div class="progress-bar">
+            <p class="progress-bar-text">Currently Studying at the University of the Cordilleras</p>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-bar-text">Taking Bachelor of Science in Information Technology</p>
+          </div>
+          <div class="progress-bar">
+            <p class="progress-bar-text">Major in Network and Security Started in S.Y 2023</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1 class="contact-heading section-heading">Contact Me</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Send" class="contact-form-btn" />
+        </form>
+      </section>
+
+      <section class="projects" id="projects">
+        <h1 class="projects-heading section-heading">Projects</h1>
+        <div class="projects-wrapper">
+          <div class="project">
+            <div class="project-content">
+              <h2 class="project-title">TEST</h2>
+              <h3 class="project-technologies">TEST1</h3>
+              <a href = "Project/Project 1.html" class = "project-link" target = "_blank" > View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="social-media-icons">
+          <a href="https://github.com/markandre0425/Personal-Portfolio.git" class="social-media-link"><i class="fab fa-github-square"></i></a>
+          <a href="https://www.facebook.com/reaper.ryzek" class="social-media-link"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="social-media-link"><i class="fab fa-instagram-square"></i></a>
+          <a href="#" class="social-media-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyright">Copyright &copy; Mark Andre. All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
